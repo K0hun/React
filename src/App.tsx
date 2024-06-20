@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import ClassCom from "./ClassCom";
+import FuncCom from "./FuncCom";
 
 {
   /*
@@ -15,12 +17,8 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="test">
-        Hello,
-        {name === "리액트" ? <h1>Yes</h1> : null}!!
-      </h1>
-      <p>반갑습니다.</p>
-      {/*주석문 사용하는 방법*/}
+      <ClassCom></ClassCom>
+      <FuncCom></FuncCom>
     </div>
   );
 }
